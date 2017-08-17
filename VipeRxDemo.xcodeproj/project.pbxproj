@@ -10,12 +10,20 @@
 		5111F363D752167B741CD615 /* Pods_VipeRxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */; };
 		615AE52D23A577A99B47C117 /* Pods_VipeRxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */; };
 		A55A99ED1F45D0B6009759F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */; };
-		A55A99EF1F45D0B6009759F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99EE1F45D0B6009759F7 /* FirstViewController.swift */; };
-		A55A99F11F45D0B6009759F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99F01F45D0B6009759F7 /* SecondViewController.swift */; };
 		A55A99F41F45D0B6009759F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A99F21F45D0B6009759F7 /* Main.storyboard */; };
 		A55A99F61F45D0B6009759F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55A99F51F45D0B6009759F7 /* Assets.xcassets */; };
 		A55A99F91F45D0B6009759F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A99F71F45D0B6009759F7 /* LaunchScreen.storyboard */; };
 		A55A9A041F45D0B6009759F7 /* VipeRxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A031F45D0B6009759F7 /* VipeRxDemoTests.swift */; };
+		A55A9A161F45D3E0009759F7 /* FirstContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A111F45D3E0009759F7 /* FirstContract.swift */; };
+		A55A9A171F45D3E0009759F7 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */; };
+		A55A9A181F45D3E0009759F7 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */; };
+		A55A9A191F45D3E0009759F7 /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */; };
+		A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A151F45D3E0009759F7 /* FirstViewController.swift */; };
+		A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1B1F45D40A009759F7 /* SecondContract.swift */; };
+		A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */; };
+		A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */; };
+		A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */; };
+		A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +43,6 @@
 		A40F95D0C269DB23A31C0823 /* Pods-VipeRxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A55A99E91F45D0B6009759F7 /* VipeRxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipeRxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A55A99EE1F45D0B6009759F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A55A99F01F45D0B6009759F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A55A99F31F45D0B6009759F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A55A99F51F45D0B6009759F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A55A99F81F45D0B6009759F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +50,16 @@
 		A55A99FF1F45D0B6009759F7 /* VipeRxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipeRxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A9A031F45D0B6009759F7 /* VipeRxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipeRxDemoTests.swift; sourceTree = "<group>"; };
 		A55A9A051F45D0B6009759F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A55A9A111F45D3E0009759F7 /* FirstContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContract.swift; sourceTree = "<group>"; };
+		A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
+		A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
+		A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		A55A9A151F45D3E0009759F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A55A9A1B1F45D40A009759F7 /* SecondContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContract.swift; sourceTree = "<group>"; };
+		A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
+		A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,9 +127,8 @@
 		A55A99EB1F45D0B6009759F7 /* VipeRxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A55A9A0E1F45D3A3009759F7 /* Modules */,
 				A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */,
-				A55A99EE1F45D0B6009759F7 /* FirstViewController.swift */,
-				A55A99F01F45D0B6009759F7 /* SecondViewController.swift */,
 				A55A99F21F45D0B6009759F7 /* Main.storyboard */,
 				A55A99F51F45D0B6009759F7 /* Assets.xcassets */,
 				A55A99F71F45D0B6009759F7 /* LaunchScreen.storyboard */,
@@ -129,6 +144,39 @@
 				A55A9A051F45D0B6009759F7 /* Info.plist */,
 			);
 			path = VipeRxDemoTests;
+			sourceTree = "<group>";
+		};
+		A55A9A0E1F45D3A3009759F7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A55A9A0F1F45D3B1009759F7 /* First */,
+				A55A9A101F45D3C5009759F7 /* Second */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A55A9A0F1F45D3B1009759F7 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				A55A9A111F45D3E0009759F7 /* FirstContract.swift */,
+				A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */,
+				A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */,
+				A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */,
+				A55A9A151F45D3E0009759F7 /* FirstViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		A55A9A101F45D3C5009759F7 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				A55A9A1B1F45D40A009759F7 /* SecondContract.swift */,
+				A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */,
+				A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */,
+				A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */,
+				A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */,
+			);
+			path = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,9 +379,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A55A99F11F45D0B6009759F7 /* SecondViewController.swift in Sources */,
+				A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */,
+				A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */,
+				A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */,
+				A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */,
+				A55A9A191F45D3E0009759F7 /* FirstPresenter.swift in Sources */,
+				A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */,
+				A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */,
 				A55A99ED1F45D0B6009759F7 /* AppDelegate.swift in Sources */,
-				A55A99EF1F45D0B6009759F7 /* FirstViewController.swift in Sources */,
+				A55A9A171F45D3E0009759F7 /* FirstCoordinator.swift in Sources */,
+				A55A9A161F45D3E0009759F7 /* FirstContract.swift in Sources */,
+				A55A9A181F45D3E0009759F7 /* FirstInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
