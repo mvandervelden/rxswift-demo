@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5111F363D752167B741CD615 /* Pods_VipeRxDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */; };
+		615AE52D23A577A99B47C117 /* Pods_VipeRxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */; };
 		A55A99ED1F45D0B6009759F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */; };
 		A55A99EF1F45D0B6009759F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99EE1F45D0B6009759F7 /* FirstViewController.swift */; };
 		A55A99F11F45D0B6009759F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99F01F45D0B6009759F7 /* SecondViewController.swift */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3521ACDFD670F98AD7A60E6D /* Pods-VipeRxDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemo/Pods-VipeRxDemo.release.xcconfig"; sourceTree = "<group>"; };
+		67B6B50DCF82D4683AB0DC35 /* Pods-VipeRxDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemo/Pods-VipeRxDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		743F38E33ABBCE8DA3D32ED4 /* Pods-VipeRxDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A40F95D0C269DB23A31C0823 /* Pods-VipeRxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A55A99E91F45D0B6009759F7 /* VipeRxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipeRxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55A99EE1F45D0B6009759F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,8 @@
 		A55A99FF1F45D0B6009759F7 /* VipeRxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VipeRxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A9A031F45D0B6009759F7 /* VipeRxDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipeRxDemoTests.swift; sourceTree = "<group>"; };
 		A55A9A051F45D0B6009759F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5111F363D752167B741CD615 /* Pods_VipeRxDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615AE52D23A577A99B47C117 /* Pods_VipeRxDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62E38D425FAC9EDFF73E7C4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */,
+				F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		882F98CA5726E054AEF30BA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B6B50DCF82D4683AB0DC35 /* Pods-VipeRxDemo.debug.xcconfig */,
+				3521ACDFD670F98AD7A60E6D /* Pods-VipeRxDemo.release.xcconfig */,
+				A40F95D0C269DB23A31C0823 /* Pods-VipeRxDemoTests.debug.xcconfig */,
+				743F38E33ABBCE8DA3D32ED4 /* Pods-VipeRxDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A55A99E01F45D0B6009759F7 = {
 			isa = PBXGroup;
 			children = (
 				A55A99EB1F45D0B6009759F7 /* VipeRxDemo */,
 				A55A9A021F45D0B6009759F7 /* VipeRxDemoTests */,
 				A55A99EA1F45D0B6009759F7 /* Products */,
+				882F98CA5726E054AEF30BA6 /* Pods */,
+				62E38D425FAC9EDFF73E7C4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +138,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A55A9A081F45D0B6009759F7 /* Build configuration list for PBXNativeTarget "VipeRxDemo" */;
 			buildPhases = (
+				EE1F8C9579CF767C9ECD0B74 /* [CP] Check Pods Manifest.lock */,
 				A55A99E51F45D0B6009759F7 /* Sources */,
 				A55A99E61F45D0B6009759F7 /* Frameworks */,
 				A55A99E71F45D0B6009759F7 /* Resources */,
+				91E5FD93B069A24A49C8CCB6 /* [CP] Embed Pods Frameworks */,
+				DEFD96A7F465EBF03573D1BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A55A9A0B1F45D0B6009759F7 /* Build configuration list for PBXNativeTarget "VipeRxDemoTests" */;
 			buildPhases = (
+				6281618F10DA6B6E002A1A9D /* [CP] Check Pods Manifest.lock */,
 				A55A99FB1F45D0B6009759F7 /* Sources */,
 				A55A99FC1F45D0B6009759F7 /* Frameworks */,
 				A55A99FD1F45D0B6009759F7 /* Resources */,
+				826184C771C5D01B23F21208 /* [CP] Embed Pods Frameworks */,
+				0C56A2419A346E0ACB569099 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +232,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C56A2419A346E0ACB569099 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6281618F10DA6B6E002A1A9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		826184C771C5D01B23F21208 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91E5FD93B069A24A49C8CCB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipeRxDemo/Pods-VipeRxDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEFD96A7F465EBF03573D1BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VipeRxDemo/Pods-VipeRxDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1F8C9579CF767C9ECD0B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A55A99E51F45D0B6009759F7 /* Sources */ = {
@@ -353,6 +484,7 @@
 		};
 		A55A9A091F45D0B6009759F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B6B50DCF82D4683AB0DC35 /* Pods-VipeRxDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W4ANNK34Q2;
@@ -367,6 +499,7 @@
 		};
 		A55A9A0A1F45D0B6009759F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3521ACDFD670F98AD7A60E6D /* Pods-VipeRxDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W4ANNK34Q2;
@@ -381,6 +514,7 @@
 		};
 		A55A9A0C1F45D0B6009759F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40F95D0C269DB23A31C0823 /* Pods-VipeRxDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,6 +531,7 @@
 		};
 		A55A9A0D1F45D0B6009759F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 743F38E33ABBCE8DA3D32ED4 /* Pods-VipeRxDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
