@@ -7,7 +7,7 @@ class SecondCoordinator: SecondCoordinating {
 
     static func assemble(output: SecondCoordinatingOutput) -> SecondCoordinating {
         let coordinator = SecondCoordinator()
-        let view = SecondViewController.from(storyboard: "Main")
+        let view: SecondViewController = UIViewController.from(storyboard: "Main")
         let presenter = SecondPresenter()
         let interactor = SecondInteractor()
         

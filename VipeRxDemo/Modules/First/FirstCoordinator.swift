@@ -7,7 +7,7 @@ class FirstCoordinator: FirstCoordinating {
 
     static func assemble(output: FirstCoordinatingOutput) -> FirstCoordinating {
         let coordinator = FirstCoordinator()
-        let view = FirstViewController.from(storyboard: "Main")
+        let view: FirstViewController = UIViewController.from(storyboard: "Main")
         let presenter = FirstPresenter()
         let interactor = FirstInteractor()
         
