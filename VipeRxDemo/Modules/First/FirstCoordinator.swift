@@ -1,15 +1,15 @@
 import Foundation
 import UIKit
 
-class FirstScreenCoordinator: FirstScreenCoordinating {
+class FirstCoordinator: FirstCoordinating {
     var rootViewController: UIViewController!
-    weak var output: FirstScreenCoordinatingOutput!
+    weak var output: FirstCoordinatingOutput!
 
-    static func assemble(output: FirstScreenCoordinatingOutput) -> FirstScreenCoordinating {
-        let coordinator = FirstScreenCoordinator()
-        let view = FirstScreenViewController.from(storyboard: "Main")
-        let presenter = FirstScreenPresenter()
-        let interactor = FirstScreenInteractor()
+    static func assemble(output: FirstCoordinatingOutput) -> FirstCoordinating {
+        let coordinator = FirstCoordinator()
+        let view = FirstViewController.from(storyboard: "Main")
+        let presenter = FirstPresenter()
+        let interactor = FirstInteractor()
         
         presenter.interactor = interactor
         presenter.view = view

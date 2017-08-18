@@ -1,7 +1,7 @@
 import Foundation
 
-class SecondScreenInteractor: SecondScreenInteracting {
+class SecondInteractor: SecondInteracting {
     
-    weak var output: SecondScreenInteractingOutput!
+    weak var output: SecondInteractingOutput!
 
 }

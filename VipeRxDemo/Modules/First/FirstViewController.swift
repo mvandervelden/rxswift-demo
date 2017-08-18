@@ -1,8 +1,8 @@
 import Foundation
 import UIKit
 
-class FirstScreenViewController: UIViewController, FirstScreenViewable {
-    var presenter: FirstScreenPresenting!
+class FirstViewController: UIViewController, FirstViewable {
+    var presenter: FirstPresenting!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -10,12 +10,12 @@ class FirstScreenViewController: UIViewController, FirstScreenViewable {
     }
 }
 
-extension FirstScreenViewController {
+extension FirstViewController {
 
-    static func from(storyboard: String) -> FirstScreenViewController {
+    static func from(storyboard: String) -> FirstViewController {
         let storyboard = UIStoryboard(name: storyboard, bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "FirstScreenViewController")
-        return vc as! FirstScreenViewController
+        let vc = storyboard.instantiateViewController(withIdentifier: "FirstViewController")
+        return vc as! FirstViewController
     }
 
 }

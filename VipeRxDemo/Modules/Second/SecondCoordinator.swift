@@ -1,15 +1,15 @@
 import Foundation
 import UIKit
 
-class SecondScreenCoordinator: SecondScreenCoordinating {
+class SecondCoordinator: SecondCoordinating {
     var rootViewController: UIViewController!
-    weak var output: SecondScreenCoordinatingOutput!
+    weak var output: SecondCoordinatingOutput!
 
-    static func assemble(output: SecondScreenCoordinatingOutput) -> SecondScreenCoordinating {
-        let coordinator = SecondScreenCoordinator()
-        let view = SecondScreenViewController.from(storyboard: "Main")
-        let presenter = SecondScreenPresenter()
-        let interactor = SecondScreenInteractor()
+    static func assemble(output: SecondCoordinatingOutput) -> SecondCoordinating {
+        let coordinator = SecondCoordinator()
+        let view = SecondViewController.from(storyboard: "Main")
+        let presenter = SecondPresenter()
+        let interactor = SecondInteractor()
         
         presenter.interactor = interactor
         presenter.view = view

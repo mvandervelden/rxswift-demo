@@ -1,8 +1,8 @@
 import Foundation
 import UIKit
 
-class SecondScreenViewController: UIViewController, SecondScreenViewable {
-    var presenter: SecondScreenPresenting!
+class SecondViewController: UIViewController, SecondViewable {
+    var presenter: SecondPresenting!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -10,12 +10,12 @@ class SecondScreenViewController: UIViewController, SecondScreenViewable {
     }
 }
 
-extension SecondScreenViewController {
+extension SecondViewController {
 
-    static func from(storyboard: String) -> SecondScreenViewController {
+    static func from(storyboard: String) -> SecondViewController {
         let storyboard = UIStoryboard(name: storyboard, bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "SecondScreenViewController")
-        return vc as! SecondScreenViewController
+        let vc = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+        return vc as! SecondViewController
     }
 
 }

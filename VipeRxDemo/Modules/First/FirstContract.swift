@@ -1,41 +1,41 @@
 import Foundation
 import UIKit
 
-protocol FirstScreenCoordinatingOutput: class {
+protocol FirstCoordinatingOutput: class {
 
 }
 
-protocol FirstScreenCoordinating: class {
+protocol FirstCoordinating: class {
 
     weak var rootViewController: UIViewController! { get set }
-    weak var output: FirstScreenCoordinatingOutput! { get set }
+    weak var output: FirstCoordinatingOutput! { get set }
 
-    static func assemble(output: FirstScreenCoordinatingOutput) -> FirstScreenCoordinating
+    static func assemble(output: FirstCoordinatingOutput) -> FirstCoordinating
 
 }
 
-protocol FirstScreenPresenting {
+protocol FirstPresenting {
 
-    var interactor: FirstScreenInteracting! { get set }
-    var coordinator: FirstScreenCoordinating! { get set }
-    weak var view: FirstScreenViewable! { get set }
+    var interactor: FirstInteracting! { get set }
+    var coordinator: FirstCoordinating! { get set }
+    weak var view: FirstViewable! { get set }
 
     func viewDidLoad()
 
 }
 
-protocol FirstScreenInteracting: class {
+protocol FirstInteracting: class {
 
-    weak var output: FirstScreenInteractingOutput! { get set }
-
-}
-
-protocol FirstScreenInteractingOutput: class {
+    weak var output: FirstInteractingOutput! { get set }
 
 }
 
-protocol FirstScreenViewable: class {
+protocol FirstInteractingOutput: class {
+
+}
+
+protocol FirstViewable: class {
     
-    var presenter: FirstScreenPresenting! { get set }
+    var presenter: FirstPresenting! { get set }
 
 }

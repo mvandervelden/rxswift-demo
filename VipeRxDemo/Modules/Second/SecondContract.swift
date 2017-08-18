@@ -1,41 +1,41 @@
 import Foundation
 import UIKit
 
-protocol SecondScreenCoordinatingOutput: class {
+protocol SecondCoordinatingOutput: class {
 
 }
 
-protocol SecondScreenCoordinating: class {
+protocol SecondCoordinating: class {
 
     weak var rootViewController: UIViewController! { get set }
-    weak var output: SecondScreenCoordinatingOutput! { get set }
+    weak var output: SecondCoordinatingOutput! { get set }
 
-    static func assemble(output: SecondScreenCoordinatingOutput) -> SecondScreenCoordinating
+    static func assemble(output: SecondCoordinatingOutput) -> SecondCoordinating
 
 }
 
-protocol SecondScreenPresenting {
+protocol SecondPresenting {
 
-    var interactor: SecondScreenInteracting! { get set }
-    var coordinator: SecondScreenCoordinating! { get set }
-    weak var view: SecondScreenViewable! { get set }
+    var interactor: SecondInteracting! { get set }
+    var coordinator: SecondCoordinating! { get set }
+    weak var view: SecondViewable! { get set }
 
     func viewDidLoad()
 
 }
 
-protocol SecondScreenInteracting: class {
+protocol SecondInteracting: class {
 
-    weak var output: SecondScreenInteractingOutput! { get set }
-
-}
-
-protocol SecondScreenInteractingOutput: class {
+    weak var output: SecondInteractingOutput! { get set }
 
 }
 
-protocol SecondScreenViewable: class {
+protocol SecondInteractingOutput: class {
+
+}
+
+protocol SecondViewable: class {
     
-    var presenter: SecondScreenPresenting! { get set }
+    var presenter: SecondPresenting! { get set }
 
 }

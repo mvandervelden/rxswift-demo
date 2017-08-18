@@ -1,9 +1,9 @@
 import Foundation
 
-class FirstScreenPresenter: FirstScreenPresenting {
-    var interactor: FirstScreenInteracting!
-    weak var coordinator: FirstScreenCoordinating!
-    weak var view: FirstScreenViewable!
+class FirstPresenter: FirstPresenting {
+    var interactor: FirstInteracting!
+    weak var coordinator: FirstCoordinating!
+    weak var view: FirstViewable!
 
     //Setup the view
     func viewDidLoad() {
@@ -11,6 +11,6 @@ class FirstScreenPresenter: FirstScreenPresenting {
     }
 }
 
-extension FirstScreenPresenter: FirstScreenInteractingOutput {
+extension FirstPresenter: FirstInteractingOutput {
 
 }
