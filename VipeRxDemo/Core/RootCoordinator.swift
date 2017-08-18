@@ -19,9 +19,10 @@ class RootCoordinator: RootCoordinating {
 
     private func createTabBarController() -> UIViewController {
         let tabBarController = UITabBarController()
+        let sharedEntity = SomeEntity()
 
-        let firstCoordinator = FirstCoordinator.assemble(output: self)
-        let secondCoordinator = SecondCoordinator.assemble(output: self)
+        let firstCoordinator = FirstCoordinator.assemble(output: self, data: sharedEntity)
+        let secondCoordinator = SecondCoordinator.assemble(output: self, data: sharedEntity)
 
         tabBarController.viewControllers = [
             firstCoordinator.rootViewController,

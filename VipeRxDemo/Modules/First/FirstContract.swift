@@ -10,7 +10,7 @@ protocol FirstCoordinating: class {
     weak var rootViewController: UIViewController! { get set }
     weak var output: FirstCoordinatingOutput! { get set }
 
-    static func assemble(output: FirstCoordinatingOutput) -> FirstCoordinating
+    static func assemble(output: FirstCoordinatingOutput, data: SomeEntity) -> FirstCoordinating
 
 }
 
@@ -37,5 +37,5 @@ protocol FirstInteractingOutput: class {
 protocol FirstViewable: class {
     
     var presenter: FirstPresenting! { get set }
-
+    var data: SomeEntity! { get set }
 }

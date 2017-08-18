@@ -10,7 +10,7 @@ protocol SecondCoordinating: class {
     weak var rootViewController: UIViewController! { get set }
     weak var output: SecondCoordinatingOutput! { get set }
 
-    static func assemble(output: SecondCoordinatingOutput) -> SecondCoordinating
+    static func assemble(output: SecondCoordinatingOutput, data: SomeEntity) -> SecondCoordinating
 
 }
 
@@ -37,5 +37,5 @@ protocol SecondInteractingOutput: class {
 protocol SecondViewable: class {
     
     var presenter: SecondPresenting! { get set }
-
+    weak var data: SomeEntity! { get set }
 }
