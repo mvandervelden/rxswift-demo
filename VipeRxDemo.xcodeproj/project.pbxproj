@@ -18,13 +18,9 @@
 		A55A9A041F45D0B6009759F7 /* VipeRxDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A031F45D0B6009759F7 /* VipeRxDemoTests.swift */; };
 		A55A9A161F45D3E0009759F7 /* FirstContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A111F45D3E0009759F7 /* FirstContract.swift */; };
 		A55A9A171F45D3E0009759F7 /* FirstCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */; };
-		A55A9A181F45D3E0009759F7 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */; };
-		A55A9A191F45D3E0009759F7 /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */; };
 		A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A151F45D3E0009759F7 /* FirstViewController.swift */; };
 		A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1B1F45D40A009759F7 /* SecondContract.swift */; };
 		A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */; };
-		A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */; };
-		A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */; };
 		A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */; };
 		A55A9A271F46DCFF009759F7 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */; };
 		A55A9A291F46DDBB009759F7 /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A281F46DDBB009759F7 /* RootContract.swift */; };
@@ -58,13 +54,9 @@
 		A55A9A051F45D0B6009759F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55A9A111F45D3E0009759F7 /* FirstContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContract.swift; sourceTree = "<group>"; };
 		A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCoordinator.swift; sourceTree = "<group>"; };
-		A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
-		A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
 		A55A9A151F45D3E0009759F7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A55A9A1B1F45D40A009759F7 /* SecondContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContract.swift; sourceTree = "<group>"; };
 		A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
-		A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
-		A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
 		A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
 		A55A9A281F46DDBB009759F7 /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
@@ -187,8 +179,6 @@
 			children = (
 				A55A9A111F45D3E0009759F7 /* FirstContract.swift */,
 				A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */,
-				A55A9A131F45D3E0009759F7 /* FirstInteractor.swift */,
-				A55A9A141F45D3E0009759F7 /* FirstPresenter.swift */,
 				A55A9A151F45D3E0009759F7 /* FirstViewController.swift */,
 			);
 			path = First;
@@ -199,8 +189,6 @@
 			children = (
 				A55A9A1B1F45D40A009759F7 /* SecondContract.swift */,
 				A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */,
-				A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */,
-				A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */,
 				A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */,
 			);
 			path = Second;
@@ -416,20 +404,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5353BC51F46FFAA004D7C64 /* SomeEntity.swift in Sources */,
-				A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */,
 				A55A9A291F46DDBB009759F7 /* RootContract.swift in Sources */,
-				A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */,
 				A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */,
 				A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */,
 				A55A9A271F46DCFF009759F7 /* RootCoordinator.swift in Sources */,
-				A55A9A191F45D3E0009759F7 /* FirstPresenter.swift in Sources */,
 				A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */,
 				A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */,
 				A55A99ED1F45D0B6009759F7 /* AppDelegate.swift in Sources */,
 				A55A9A171F45D3E0009759F7 /* FirstCoordinator.swift in Sources */,
 				A55A9A161F45D3E0009759F7 /* FirstContract.swift in Sources */,
 				A5353BC31F46F142004D7C64 /* UIViewController+InstantiateFromStoryboard.swift in Sources */,
-				A55A9A181F45D3E0009759F7 /* FirstInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

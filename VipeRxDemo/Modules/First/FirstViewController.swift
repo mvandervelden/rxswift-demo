@@ -4,8 +4,6 @@ import RxCocoa
 import RxSwift
 
 class FirstViewController: UIViewController, FirstViewable {
-    var presenter: FirstPresenting!
-
     let disposeBag = DisposeBag()
 
     var data: SomeEntity!

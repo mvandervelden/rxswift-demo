@@ -2,7 +2,6 @@ import Foundation
 import UIKit
 
 protocol SecondCoordinatingOutput: class {
-
 }
 
 protocol SecondCoordinating: class {
@@ -14,28 +13,6 @@ protocol SecondCoordinating: class {
 
 }
 
-protocol SecondPresenting {
-
-    var interactor: SecondInteracting! { get set }
-    var coordinator: SecondCoordinating! { get set }
-    weak var view: SecondViewable! { get set }
-
-    func viewDidLoad()
-
-}
-
-protocol SecondInteracting: class {
-
-    weak var output: SecondInteractingOutput! { get set }
-
-}
-
-protocol SecondInteractingOutput: class {
-
-}
-
 protocol SecondViewable: class {
-    
-    var presenter: SecondPresenting! { get set }
     weak var data: SomeEntity! { get set }
 }
