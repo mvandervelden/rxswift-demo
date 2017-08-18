@@ -187,8 +187,8 @@
 		A55A9A251F46DCE5009759F7 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */,
 				A55A9A281F46DDBB009759F7 /* RootContract.swift */,
+				A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
