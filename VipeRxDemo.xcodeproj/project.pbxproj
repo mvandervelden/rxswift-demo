@@ -24,6 +24,8 @@
 		A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */; };
 		A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */; };
 		A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */; };
+		A55A9A271F46DCFF009759F7 /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */; };
+		A55A9A291F46DDBB009759F7 /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A9A281F46DDBB009759F7 /* RootContract.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		A55A9A1D1F45D40A009759F7 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
 		A55A9A1E1F45D40A009759F7 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
 		A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		A55A9A281F46DDBB009759F7 /* RootContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
 		C6F3770239AFD5B93248F490 /* Pods_VipeRxDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VipeRxDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +131,7 @@
 		A55A99EB1F45D0B6009759F7 /* VipeRxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A55A9A251F46DCE5009759F7 /* Core */,
 				A55A9A0E1F45D3A3009759F7 /* Modules */,
 				A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */,
 				A55A99F21F45D0B6009759F7 /* Main.storyboard */,
@@ -177,6 +182,15 @@
 				A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */,
 			);
 			path = Second;
+			sourceTree = "<group>";
+		};
+		A55A9A251F46DCE5009759F7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A55A9A261F46DCFF009759F7 /* RootCoordinator.swift */,
+				A55A9A281F46DDBB009759F7 /* RootContract.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,9 +394,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A55A9A221F45D40A009759F7 /* SecondInteractor.swift in Sources */,
+				A55A9A291F46DDBB009759F7 /* RootContract.swift in Sources */,
 				A55A9A231F45D40A009759F7 /* SecondPresenter.swift in Sources */,
 				A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */,
 				A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */,
+				A55A9A271F46DCFF009759F7 /* RootCoordinator.swift in Sources */,
 				A55A9A191F45D3E0009759F7 /* FirstPresenter.swift in Sources */,
 				A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */,
 				A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */,
