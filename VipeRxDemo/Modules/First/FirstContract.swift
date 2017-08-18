@@ -15,5 +15,5 @@ protocol FirstCoordinating: class {
 }
 
 protocol FirstViewable: class {
-    var data: SomeEntity! { get set }
+    var data: FirstEntityViewModel! { get set }
 }

@@ -9,7 +9,7 @@ class FirstCoordinator: FirstCoordinating {
         let coordinator = FirstCoordinator()
         let view: FirstViewController = UIViewController.from(storyboard: "Main")
 
-        view.data = data
+        view.data = FirstEntityViewModel(entity: data)
 
         coordinator.rootViewController = view
         coordinator.output = output

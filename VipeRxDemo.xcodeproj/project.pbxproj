@@ -11,6 +11,8 @@
 		615AE52D23A577A99B47C117 /* Pods_VipeRxDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F693E68E83980FD7B7D95786 /* Pods_VipeRxDemoTests.framework */; };
 		A5353BC31F46F142004D7C64 /* UIViewController+InstantiateFromStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5353BC21F46F142004D7C64 /* UIViewController+InstantiateFromStoryboard.swift */; };
 		A5353BC51F46FFAA004D7C64 /* SomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5353BC41F46FFAA004D7C64 /* SomeEntity.swift */; };
+		A53B577A1F4723E200FA9D0F /* FirstEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B57791F4723E200FA9D0F /* FirstEntityViewModel.swift */; };
+		A53B577C1F472F9800FA9D0F /* SecondEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53B577B1F472F9800FA9D0F /* SecondEntityViewModel.swift */; };
 		A55A99ED1F45D0B6009759F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */; };
 		A55A99F41F45D0B6009759F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55A99F21F45D0B6009759F7 /* Main.storyboard */; };
 		A55A99F61F45D0B6009759F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55A99F51F45D0B6009759F7 /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 		A40F95D0C269DB23A31C0823 /* Pods-VipeRxDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VipeRxDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VipeRxDemoTests/Pods-VipeRxDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5353BC21F46F142004D7C64 /* UIViewController+InstantiateFromStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+InstantiateFromStoryboard.swift"; sourceTree = "<group>"; };
 		A5353BC41F46FFAA004D7C64 /* SomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeEntity.swift; sourceTree = "<group>"; };
+		A53B57791F4723E200FA9D0F /* FirstEntityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstEntityViewModel.swift; sourceTree = "<group>"; };
+		A53B577B1F472F9800FA9D0F /* SecondEntityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondEntityViewModel.swift; sourceTree = "<group>"; };
 		A55A99E91F45D0B6009759F7 /* VipeRxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VipeRxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A99EC1F45D0B6009759F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55A99F31F45D0B6009759F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 				A55A9A111F45D3E0009759F7 /* FirstContract.swift */,
 				A55A9A121F45D3E0009759F7 /* FirstCoordinator.swift */,
 				A55A9A151F45D3E0009759F7 /* FirstViewController.swift */,
+				A53B57791F4723E200FA9D0F /* FirstEntityViewModel.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				A55A9A1B1F45D40A009759F7 /* SecondContract.swift */,
 				A55A9A1C1F45D40A009759F7 /* SecondCoordinator.swift */,
 				A55A9A1F1F45D40A009759F7 /* SecondViewController.swift */,
+				A53B577B1F472F9800FA9D0F /* SecondEntityViewModel.swift */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -406,7 +412,9 @@
 				A5353BC51F46FFAA004D7C64 /* SomeEntity.swift in Sources */,
 				A55A9A291F46DDBB009759F7 /* RootContract.swift in Sources */,
 				A55A9A1A1F45D3E0009759F7 /* FirstViewController.swift in Sources */,
+				A53B577C1F472F9800FA9D0F /* SecondEntityViewModel.swift in Sources */,
 				A55A9A241F45D40A009759F7 /* SecondViewController.swift in Sources */,
+				A53B577A1F4723E200FA9D0F /* FirstEntityViewModel.swift in Sources */,
 				A55A9A271F46DCFF009759F7 /* RootCoordinator.swift in Sources */,
 				A55A9A201F45D40A009759F7 /* SecondContract.swift in Sources */,
 				A55A9A211F45D40A009759F7 /* SecondCoordinator.swift in Sources */,

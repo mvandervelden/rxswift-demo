@@ -14,5 +14,5 @@ protocol SecondCoordinating: class {
 }
 
 protocol SecondViewable: class {
-    weak var data: SomeEntity! { get set }
+    var data: SecondEntityViewModel! { get set }
 }

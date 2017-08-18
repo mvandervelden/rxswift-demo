@@ -9,7 +9,7 @@ class SecondCoordinator: SecondCoordinating {
         let coordinator = SecondCoordinator()
         let view: SecondViewController = UIViewController.from(storyboard: "Main")
 
-        view.data = data
+        view.data = SecondEntityViewModel(entity: data)
 
         coordinator.rootViewController = view
         coordinator.output = output

@@ -6,7 +6,7 @@ import RxCocoa
 class SecondViewController: UIViewController, SecondViewable {
     let disposeBag = DisposeBag()
 
-    var data: SomeEntity!
+    var data: SecondEntityViewModel!
 
     @IBOutlet weak var dataTextField: UITextField!
     @IBOutlet weak var titleLabel: UILabel!
@@ -16,7 +16,7 @@ class SecondViewController: UIViewController, SecondViewable {
 
         dataTextField.rx.text
             .orEmpty
-            .bind(to: data.data)
+            .bind(to: data.text)
             .disposed(by: disposeBag)
 
         data.isValid
