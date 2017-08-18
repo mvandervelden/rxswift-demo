@@ -1,5 +1,6 @@
 import Foundation
+import RxSwift
 
 class SomeEntity {
-    var data: String = ""
+    let data: Variable<String> = Variable("")
 }
